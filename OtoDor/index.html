@@ -2,7 +2,7 @@
 <head>
 <script>
 function requestBlink(){
-  httpGet(document.getElementById("deviceID").value);
+  httpGet("http://http.semita.tk/" + document.getElementById("deviceID").value + "/unlock");
 }
 function httpGet(theUrl)
 {
